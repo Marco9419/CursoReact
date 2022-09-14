@@ -19,7 +19,7 @@ function getName(user){
 
 function getGreeting(user){
     if(user){
-     return   <h1>Hello { getName(user) }</h1>
+     return   <h1>Hello Sr. { getName(user) }</h1>
     }
     return <h1>Hello Stranger</h1>
 }
